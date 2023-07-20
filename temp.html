@@ -4,18 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Employee Card Design Challenge</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../dist/output.css">
   </head>
   <body class="h-screen flex flex-col justify-center text-center">
-    <div class="bg-gray-400 m-auto px-10 py-20 rounded-lg">
-      <div class="rounded-lg shadow-3xl bg-gray-100">
-        <div class="text-gray-700 py-3 font-semibold bg-gray-20">
+    <div class="bg-gray-500 m-auto px-10 py-16 h-2/4">
+      <div class="rounded-lg overflow-hidden shadow-3xl bg-gray-100">
+        <div class="text-gray-700 py-3 font-semibold bg-gray-200">
           <p>Employee Status Card</p>
         </div>
-        <div class="flex gap-10 border px-10 py-3">
-          <div class="bg-amber-600 text-center text-white px-4 py-1 rounded-full hover:cursor-pointer">
-            <p>Under Review</p>
-          </div>
+        <div class="flex justify-between border px-10 py-3">
+            <div class="bg-amber-600 text-center text-white px-3 rounded-full hover:cursor-pointer font-semibold">
+            Under Review
+            </div>
           <div>
             <p>May 14, 1988</p>
           </div>
@@ -30,10 +30,10 @@
           </div>
         </div>
 
-        <div class="bg-gray-100 border">
-          <div class="flex justify-center">
-            <div class="items-center">
-              <img src="./profile.png" alt="" class="h-10" />
+
+          <div class="flex justify-center gap-3">
+            <div class="">
+              <img src="../images/profile.png" alt="" class="h-10" />
             </div>
             <div class="flex items-center pr-2">
               <p>Martin Luther King Jr.</p>
@@ -41,6 +41,5 @@
           </div>
         </div>
       </div>
-    </div>
   </body>
 </html>
